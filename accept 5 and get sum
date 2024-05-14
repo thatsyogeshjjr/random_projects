@@ -1,0 +1,7 @@
+# accept 5 and get sum
+
+s=0
+for i in range(1,5):
+	x=int(input("Number: "))
+	s+=x
+print("sum:",s)

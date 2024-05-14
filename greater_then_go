@@ -1,0 +1,11 @@
+x=int(input("Num1: "))
+y=int(input("Num2: "))
+
+if x>y:
+	while x>=y:
+		print(y)
+		y+=1
+else:
+	while y>=x:
+		print(x)
+		x+=1
